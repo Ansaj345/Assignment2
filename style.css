@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Sans Pro-Regular;
+    src: url(SourceSansPro-Regular.ttf);
+}
+@font-face {
+    font-family: Sans Pro-Bold;
+    src: url(SourceSansPro-Bold.ttf);
+}
+.logo{
+    margin-top: 20px;
+    height: 100px;
+    width: 250px
+    
+}
+.row{
+    display: flex;
+}
+
+.arrow{
+    height: 20px;
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.dropdown{
+    
+    font-family: Sans Pro-Regular;
+    font-size: 16px;
+    margin: 50px 10px 50px 800px;
+    line-height: 40px;
+    padding: 1px;
+    border: 1px solid rgb(190, 188, 188);
+    border-radius: 5px;
+    border-width: 1px;
+}
+.col1{
+    
+    background-image: url(plane-quantity-background.png);
+    height: 560px;
+    width: 450px;
+}
+.p1{
+    color: white;
+    margin: 64px 0px 0px 10px;
+    font-family: Sans Pro-Bold;
+    font-size: 60px;
+}
+.p2{
+    color: white;
+    margin: 0px 0px 0px 10px;
+    font-family: Sans Pro-Regular;
+    font-size: 40px;
+}
+.col2{
+    background-color: #99DC54 ;
+    height: 560px;
+    width: 450px;
+}
+
+
+.plane{
+    height: 80px;
+    width: 80px;
+    margin-right: 32px
+
+}
+.plane{
+    float: left;
+}
+hr.solid {
+
+        margin-top: 32px;
+        margin-bottom: 32px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-top: 1px solid rgb(249, 245, 245);
+      }
+.col3{
+       
+        background-image: url(plane-profit-background.png);
+        height: 560px;
+        width: 450px;
+    }
+
+.margin{
+    margin-top: 64px;
+    
+}
+.inline{
+    display: inline;
+}
